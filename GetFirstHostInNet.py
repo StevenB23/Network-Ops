@@ -6,7 +6,6 @@ from ipaddress import ip_network
 
 #print(f"Supply a csv file with a column named \"hostnames\"\nie; {sys.argv[0]} c:\\temp\\test.csv")
 csv_file = sys.argv[1]
-#csv_file = "c:\\temp\\InfoBlox-DhcpNetworks.csv"
 #create df from csv of the hostnames
 df = pd.read_csv(csv_file)
 subnet_first_host = [] #list to capture first host ips
