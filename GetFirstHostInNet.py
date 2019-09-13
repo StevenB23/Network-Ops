@@ -4,7 +4,7 @@ import pandas as pd
 import socket
 from ipaddress import ip_network
 
-#print(f"Supply a csv file with a column named \"hostnames\"\nie; {sys.argv[0]} c:\\temp\\test.csv")
+#print(f"Supply a csv file with a column named \"Subnet\"\nie; {sys.argv[0]} c:\\temp\\test.csv")
 csv_file = sys.argv[1]
 #create df from csv of the hostnames
 df = pd.read_csv(csv_file)
